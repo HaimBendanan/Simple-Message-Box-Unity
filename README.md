@@ -1,6 +1,7 @@
 # Simple-Message-Box-Unity
 A simple message box for unity.
-You can easily set the text, choose to have no buttons, or 2 buttons with custom labels. The background around the textbox is automatically blurred. you can easily suply actions for 'On Yes' , 'On No' or 'On out of textBox' clicked.
+You can easily set the text, choose to have no buttons, or 2 buttons with custom labels. The background around the textbox is automatically blurred. You can easily suply actions for 'On Yes' , 'On No' or 'On out of textBox' clicked.
+Be aware that you should not prompt more than one message at the same time.
 
 ##Add the package to your Unity project:
 Simply import the SimpleMessageBox package to your project ([How to Here](http://answers.unity3d.com/questions/10813/importing-a-unitypackage.html)). all the files are under ressources/SimpleMessageBox so it should be easy to locate the import location of the files.
