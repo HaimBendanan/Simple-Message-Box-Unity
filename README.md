@@ -1,5 +1,5 @@
 # Simple-Message-Box-Unity
-A simple message box for unity.
+A simple message box for unity (IOS/Android/...).
 You can easily set the text, choose to have no buttons, or 2 buttons with custom labels. The background around the textbox is automatically blurred. You can easily suply actions for 'On Yes' , 'On No' or 'On out of textBox' clicked.
 Be aware that you should not prompt more than one message at the same time.
 
