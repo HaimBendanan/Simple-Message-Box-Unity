@@ -20,12 +20,12 @@ namespace Main.Assets.Scripts
 		private void Awake()
 		{
 			var tx = GetComponentsInChildren<Transform>();
-			var mainTextGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.Tags.MessageBoxText);
+			var mainTextGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.MessageBox.Tags.MessageBoxText);
 			var blurBackgroundGo =
-				tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.Tags.MessageBoxBlur);
-			var yesGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.Tags.MessageBoxYes);
-			var noGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.Tags.MessageBoxNo);
-			var closeGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.Tags.CloseOption);
+				tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.MessageBox.Tags.MessageBoxBlur);
+			var yesGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.MessageBox.Tags.MessageBoxYes);
+			var noGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.MessageBox.Tags.MessageBoxNo);
+			var closeGo = tx.FirstOrDefault(transformChild => transformChild.gameObject.tag == Consts.MessageBox.Tags.CloseOption);
 
 			try
 			{
@@ -97,7 +97,7 @@ namespace Main.Assets.Scripts
 		public void Dissapear()
 		{
 			Debug.Log("message dissapear");
-			GetComponent<Animator>().Play((Consts.Animations.MessageBox.MessageBoxDissappear));
+			GetComponent<Animator>().Play((Consts.MessageBox.Animations.MessageBoxDissappear));
 			Destroy(this.gameObject,1f);
 		}
 	}

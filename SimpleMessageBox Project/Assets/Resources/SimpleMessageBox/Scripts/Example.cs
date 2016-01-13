@@ -8,7 +8,7 @@ namespace Assets.Scripts
 		void Start ()
 		{
 			var messageBox = Helpers.BringMessageBox();
-			messageBox.SetMessage(Consts.StringsForUser.Example1);
+			messageBox.SetMessage(Consts.MessageBox.StringsForUser.Example1);
 			// You can choose if you want to enable the buttons(with custom text) or not
 			messageBox.EnableYesAndNo("Yes!","No...");
 			messageBox.onYes = () =>

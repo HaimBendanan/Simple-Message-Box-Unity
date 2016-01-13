@@ -28,7 +28,7 @@ namespace Main.Assets.Scripts
 
 		public static MessageBox BringMessageBox()
 		{
-			return BringPrefabToScene(Consts.Prefabs.MessageBox).GetComponent<MessageBox>();
+			return BringPrefabToScene(Consts.MessageBox.Prefabs.MessageBox).GetComponent<MessageBox>();
 		}
 	}
 }
