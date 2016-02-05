@@ -4,7 +4,7 @@ You can easily set the text, choose to have no buttons, or 2 buttons with custom
 You can easily change the background of the box, the buttons, the fonts etc'.
 Be aware that you should not prompt more than one message at the same time.
 
-[Screenshot 1](http://postimg.org/image/5ewml2um3/)
+[Screenshot 1](http://postimg.org/image/9izfjazcd/)
 [Screenshot 2](http://postimg.org/image/ib7zj4u3j/)
 [Screenshot 3](http://postimg.org/image/duh3tt09b/)
 
