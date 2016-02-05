@@ -4,6 +4,10 @@ You can easily set the text, choose to have no buttons, or 2 buttons with custom
 You can easily change the background of the box, the buttons, the fonts etc'.
 Be aware that you should not prompt more than one message at the same time.
 
+![Screenshot 1](http://postimg.org/image/5ewml2um3/)
+![Screenshot 2](http://postimg.org/image/ib7zj4u3j/)
+![Screenshot 3](http://postimg.org/image/duh3tt09b/)
+
 ##Add the package to your Unity project:
 Import the SimpleMessageBox package to your project ([How to Here](http://answers.unity3d.com/questions/10813/importing-a-unitypackage.html)). All the files are under ressources/SimpleMessageBox so it should be easy to locate the import location of the files.
 You can also open the SimpleMessageBox project if you want to have a look a the files and test the message box before importing the package.
